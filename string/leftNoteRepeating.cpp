@@ -20,7 +20,7 @@ int nonRepeating(string str)
             res = min(res,count[i]);
         }
     }
-    return res;
+    return res==INT_MAX ? -1 : res;
 }
 int main()
 {
